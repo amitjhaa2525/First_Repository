@@ -38,7 +38,7 @@ function myFunction2(){
           }
        }
     }
-	/* alert("===========43==========="+ajaxRequest); */
+	/* alert("===========commit checking==========="+ajaxRequest); */
     ajaxRequest.onreadystatechange = getInfo;
     var accno = document.getElementById('accno').value;
 	ajaxRequest.open("GET","checkajax.jsp?feeid="+accno,true);
